@@ -14,6 +14,7 @@
 | DL-007 | 2026-07-02 | 확정 | 학습 영상은 studies에 자산화 |
 | DL-008 | 2026-07-02 | 확정 | F1/F2/F4는 공식 제작물 아님, 실패 회고로만 기록 |
 | DL-009 | 2026-07-02 | 확정 | 코비 기준 관리자 및 4주체 운영 체계 확정 |
+| DL-010 | 2026-07-02 | 확정 | Public GitHub 운영 및 코비 최종 검수 원칙 |
 
 ---
 
@@ -59,3 +60,11 @@
 - CEO는 최종 승인과 감사(Audit)를 수행한다.
 
 상세 역할 정의: [00_START_HERE.md](../../00_START_HERE.md) · 관리자 원칙: [pm_playbook.md](pm_playbook.md)
+
+## DL-010 — Public GitHub 운영 및 코비 최종 검수 원칙
+- ai-video-production 저장소는 **Public**으로 운영한다.
+- 클로가 실제 파일 수정 및 commit/push를 담당한다.
+- 코비는 **Public GitHub 문서를 직접 확인하고 최종 승인**한다.
+- **실문서 검수 전에는 DONE 선언을 하지 않는다.**
+
+상세 절차: [pm_playbook.md](pm_playbook.md) §10
