@@ -54,7 +54,9 @@
 
 ## 7. 학습 영상 처리 프로토콜
 
-사용자가 AI 영상 학습용 MP4를 제공하면:
+**Study 표준 입력:** URL + MP4 + WAV + SRT (4종). 근거: [study-006](../studies/study-006.md)
+
+사용자가 AI 영상 학습 자료를 제공하면:
 
 1. 영상 분석
 2. 훅 / 카메라 / 사운드 / 워크플로우 추출
@@ -127,3 +129,22 @@
 - 작업 중간 status 업데이트
 - 사소한 진행상황 기록
 - 임시 아이디어 저장
+
+## 12. 광고 제작 워크플로우 (Study 006)
+
+근거: [study-006](../studies/study-006.md)
+
+**제작 흐름**
+
+> **Assets → Shot List → Scene Generation**
+
+에셋을 먼저 확정하고, 샷 리스트를 짠 뒤, 장면을 생성한다. 순서를 건너뛰지 않는다.
+
+**원칙**
+
+- 에셋은 **먼저 생성/테스트한 후 `locked asset` 으로 관리**한다. 고정된 에셋만 장면 생성에 투입한다.
+- Claude / 클챗은 **단발 프롬프트 생성기가 아니라 connected shot list editor** 로 사용한다. (샷 간 연결·일관성 유지)
+- Higgsfield / CDS 장면은 **prompt ID 단위로 수정**한다. 전체 재생성이 아니라 문제 장면의 prompt ID만 지정한다.
+
+> HARIN cut 단위 연출(동작/시선/카메라/제품 위치 명시)과 schematic map은
+> [camera_language.md](../patterns/camera_language.md) 참조.

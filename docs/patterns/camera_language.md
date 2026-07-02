@@ -34,4 +34,16 @@
 > ⚠️ **단, 어떤 경우에도 얼굴이 식별 불가능하면 실패다.**
 > 세계의 비중이 커져도 하린의 얼굴 식별성은 반드시 유지한다.
 
-관련: [HARIN 정체성 규칙](../characters/harin/identity_rules.md)
+## Cut 단위 명시 (Study 006)
+
+근거: [study-006](../studies/study-006.md)
+
+- HARIN 영상은 **추상 동작 금지.**
+- **cut 단위로 다음 4가지를 명시**한다:
+  - 동작
+  - 시선
+  - 카메라
+  - 제품 위치
+- **위치가 흔들리면 `schematic map`(배치 도식)** 을 사용해 인물·제품·카메라 위치를 고정한다.
+
+관련: [HARIN 정체성 규칙](../characters/harin/identity_rules.md) · [광고 제작 워크플로우](../operations/pm_playbook.md) §12
