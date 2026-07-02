@@ -47,3 +47,32 @@
 - **위치가 흔들리면 `schematic map`(배치 도식)** 을 사용해 인물·제품·카메라 위치를 고정한다.
 
 관련: [HARIN 정체성 규칙](../characters/harin/identity_rules.md) · [광고 제작 워크플로우](../operations/pm_playbook.md) §12
+
+## Explicit Camera Language
+
+추상 표현보다 구체적인 촬영 언어를 사용한다.
+
+**권장**
+- ✅ 35mm lens
+- ✅ 50mm lens
+- ✅ 85mm lens
+- ✅ eye-level
+- ✅ low-angle
+- ✅ slow push-in
+- ✅ tracking shot
+- ✅ orbit shot
+- ✅ over-the-shoulder
+
+**지양**
+- ❌ cinematic
+- ❌ beautiful
+- ❌ cool
+- ❌ dynamic shot
+
+**Cut 정의 시 명시**
+- ☐ Shot Size
+- ☐ Lens
+- ☐ Camera Height
+- ☐ Camera Movement
+- ☐ Subject Position
+- ☐ Product Position
