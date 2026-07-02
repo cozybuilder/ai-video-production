@@ -3,6 +3,21 @@
 AI 영상제작 학습 자료의 색인입니다. 사용자가 제공한 학습용 영상을 분석하여
 재사용 가능한 지식 자산으로 축적합니다.
 
+## Study 분석 표준 v1 적용
+
+- 분석 표준: **[STUDY_STANDARD.md](STUDY_STANDARD.md) — AI Video Study Standard v1**
+- 원칙: **One Video = One Reproducible Production Manual** (영상 1개 = 재현 가능한 제작 매뉴얼 1장)
+- **앞으로 모든 Study는 아래 8개 섹션을 필수로 가진다:**
+  1. Metadata
+  2. Story & Scenario
+  3. Human → AI Instruction Patterns
+  4. Tool & Menu Workflow
+  5. Required Assets
+  6. Asset Creation & Locking
+  7. Drift Prevention
+  8. Camera / Lighting / Editing
+- 기존 study-001 / 003 / 006은 **이번 작업에서 수정하지 않는다.** 추후 별도 게이트에서 새 표준으로 재분석한다.
+
 ## 상태 정의
 
 - `TO_ANALYZE` — 등록됨, 전체 분석 대기
