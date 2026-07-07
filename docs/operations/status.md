@@ -22,6 +22,9 @@
 - ✅ Pattern/Rule 분리
 - ✅ Asset Layer 분리 (Identity / Output)
 - ✅ Documentation Policy 추가
+- ✅ Production Brief를 AI Video 공식 입력 SSOT로 지정 (2026-07-08)
+- ✅ cozybuilder-ops에 Production Brief 진입 규칙 추가 (PLAYBOOK P10, 내용 복제 없이 경로만)
+- ✅ AI Video 작업 시 Production Brief 확인을 필수 선행 절차로 지정
 
 ## Current Roles
 - **CEO** = 사장님

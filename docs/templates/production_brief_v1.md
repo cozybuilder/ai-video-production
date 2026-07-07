@@ -153,3 +153,9 @@ Production Brief > Scene Brief > Director Notes
 | Tier 3 | PM + Director 제안 |
 
 - Tier 3은 Tier 1과 **충돌할 수 없다.**
+
+## 공식 입력 SSOT
+
+이 문서는 AI Video Production의 **공식 프로젝트 입력 SSOT**이다.
+모든 영상 제작은 Production Brief부터 시작한다.
+코비(PM)는 항상 이 문서를 먼저 확인하고 기획을 시작한다.
