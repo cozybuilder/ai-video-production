@@ -3,6 +3,9 @@
 공식 결정 기록입니다. 여기에 기록된 항목만이 확정된 운영 원칙입니다.
 새 결정은 하단에 추가하고, 기존 결정을 바꿀 때는 새 DL로 대체 사실을 명시합니다.
 
+> **역할 재정의:** Decision Log = **History**(결정의 역사). Register = **Current State**(현재 상태).
+> 둘은 서로 역참조한다. Register: [operating_rules.md](operating_rules.md) · [pattern_register.md](../patterns/pattern_register.md) · [asset_register.md](asset_register.md) · [gates.md](gates.md)
+
 | ID | 결정일 | 상태 | 제목 |
 |----|--------|------|------|
 | DL-001 | 2026-07-02 | 확정 | ai-video-production SSOT 확정 |
@@ -16,6 +19,7 @@
 | DL-009 | 2026-07-02 | 확정 | 코비 기준 관리자 및 4주체 운영 체계 확정 |
 | DL-010 | 2026-07-02 | 확정 | Public GitHub 운영 및 코비 최종 검수 원칙 |
 | DL-011 | 2026-07-02 | 확정 | Status 운영 및 세션 종료 원칙 |
+| DL-012 | 2026-07-08 | 확정 | 운영 철학 정립 및 Register 체계 도입 |
 
 ---
 
@@ -79,3 +83,14 @@
 - 영구 자산(결정/학습/패턴/회고)만 즉시 문서화한다.
 
 상세 운영: [pm_playbook.md](pm_playbook.md) §11 · 대상 문서: [status.md](status.md)
+
+## DL-012 — 운영 철학 정립 및 Register 체계 도입
+토론 #001~002 합의를 반영해 운영 철학과 Register 체계를 도입한다. (AI Video Production 내부 문서 한정, OPS 미변경)
+
+- **운영 철학:** [operating_philosophy.md](operating_philosophy.md) OP-001~007
+- **문서화 정책:** [documentation_policy.md](documentation_policy.md)
+- **Register 체계(Current State):** Rule([operating_rules.md](operating_rules.md)) · Pattern([pattern_register.md](../patterns/pattern_register.md)) · Asset([asset_register.md](asset_register.md)) · Gate([gates.md](gates.md))
+- **Study 완료조건:** 테스트 가능한 가설 1개 이상 ([study_template.md](../studies/study_template.md))
+- **회고 표준:** [retrospective_v1.md](../retrospectives/retrospective_v1.md)
+- **용어 참조:** [glossary.md](glossary.md)
+- **Decision Log 역할 재정의:** Decision = History, Register = Current State (상단 참조)

@@ -3,7 +3,7 @@
 > 세션 스냅샷입니다. 상시 TODO 관리 도구가 아닙니다.
 > 갱신 시점: **채팅방 전환 직전** 또는 **하루 작업 종료 직전**만. (근거: [DL-011](decision_log.md), [pm_playbook.md](pm_playbook.md) §11)
 
-**최종 갱신:** 2026-07-02
+**최종 갱신:** 2026-07-08
 
 ---
 
@@ -17,6 +17,11 @@
 - ✅ 문서 즉시 반영 원칙 확립
 - ✅ F1/F2/F4 실패 회고
 - ✅ HARIN 불변 원칙 확정
+- ✅ DL-012 운영 철학 정립 (operating_philosophy OP-001~007)
+- ✅ Register 체계 도입 (Rule / Pattern / Asset / Gate)
+- ✅ Pattern/Rule 분리
+- ✅ Asset Layer 분리 (Identity / Output)
+- ✅ Documentation Policy 추가
 
 ## Current Roles
 - **CEO** = 사장님
@@ -42,3 +47,10 @@
 - ☐ Study 001 분석
 - ☐ `proven_recipes` 구조 설계
 - ☐ Higgsfield 4주 학습 루틴 정착
+
+## 향후 검토 (다음 토론 주제)
+- ☐ Rule Register와 Pattern Register 실제 구조
+- ☐ Gate 자동화
+- ☐ Asset Register Version 전략
+- ☐ OPS 승격 후보 선정
+- ☐ 여러 프로젝트 검증 후 cozybuilder-ops 승격 검토
