@@ -41,6 +41,8 @@ AI 영상제작 운영의 **단일 진실 원천(SSOT, Single Source of Truth)**
 
 > ⚠️ **클챗(초안 작성)과 클로(실제 저장)를 혼동하지 않습니다.**
 
+> **영상 제작 프로젝트**에서는 위 4주체를 CEO / PM(코비) / Director(클챗) / Engineer(클로)로 매핑하며, **연출은 Director(클챗)** 이 담당합니다. → [role_division_v1.md](docs/operations/role_division_v1.md) · [DL-013](docs/operations/decision_log.md)
+
 ## 5. 완료 게이트 (요약)
 
 작업은 아래 **7단계 모두**가 끝나야 완료입니다.

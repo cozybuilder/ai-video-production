@@ -7,9 +7,12 @@
 
 ## 역할별 사용법
 
-- **코지** — Production Brief를 작성한다. (프롬프트 작성하지 않음)
-- **코비(PM)** — Production Brief를 검토하고 **Creative Review → Scene Brief**를 작성한다.
-- **Director** — 이 문서를 기준으로 연출 / 키프레임 / 영상 제작을 진행한다.
+> 역할 정의 SSOT: [role_division_v1.md](../operations/role_division_v1.md). 아래는 이 문서(Brief) 사용 관점의 요약이다.
+
+- **CEO(코지)** — Production Brief를 작성한다. (프롬프트 작성하지 않음)
+- **PM(코비)** — Production Brief를 검토하고 **Creative Review → Scene Brief**를 작성한다.
+- **Director(클챗)** — 이 문서를 기준으로 연출 / 키프레임 / 영상 제작을 진행한다.
+- **Engineer(클로)** — 확정 산출물을 저장소·문서에 반영(commit/push)한다.
 
 ---
 
@@ -82,29 +85,14 @@ AI Video Production에서 **모든 프로젝트가 시작되는 최상위 입력
 
 ## 역할
 
-### CEO (코지)
-- 프로젝트 목표 정의
-- Tier 1 입력
-- 최종 승인
+> 역할 정의는 [role_division_v1.md](../operations/role_division_v1.md)를 따른다. 아래는 **Production Brief 처리 관점**의 책임만 명시한다. (역할 duty 중복 서술은 role_division_v1로 이관)
 
 ### Planning PM (코비)
-Production Brief를 분석하고 반드시 아래를 검토한다.
-- 메시지
-- CTA
-- 타깃
-- 감정
-- 플랫폼
-- 브랜드 일관성
-- Director 확인사항
+Production Brief를 분석하며 반드시 아래를 검토하고, 결과를 **Creative Review** 문서로 작성한다.
+- 메시지 / CTA / 타깃 / 감정 / 플랫폼 / 브랜드 일관성 / Director 확인사항
 
-검토 결과를 **Creative Review** 문서로 작성한다.
-
-### Director
-Production Brief를 기준으로 진행한다.
-- Scene Brief 검토
-- 연출
-- Keyframe
-- Motion
+### Director (클챗)
+Production Brief를 기준으로 **Scene Brief 검토 → 연출 → Keyframe → Motion**을 진행한다.
 
 ## 공식 제작 흐름
 

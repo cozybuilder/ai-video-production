@@ -32,6 +32,8 @@
 - **클챗** = 실행 보조
 - **클로** = 엔지니어
 
+> 영상 제작 한정 매핑: CEO / PM(코비) / Director(클챗) / Engineer(클로) → [role_division_v1.md](role_division_v1.md) · [DL-013](decision_log.md)
+
 ## Current Rules
 - 하린은 변하지 않는다. 세상이 변한다.
 - 이미지 승인 전 영상 생성 금지.

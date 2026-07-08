@@ -20,7 +20,7 @@
 | DL-010 | 2026-07-02 | 확정 | Public GitHub 운영 및 코비 최종 검수 원칙 |
 | DL-011 | 2026-07-02 | 확정 | Status 운영 및 세션 종료 원칙 |
 | DL-012 | 2026-07-08 | 확정 | 운영 철학 정립 및 Register 체계 도입 |
-| DL-013 | 2026-07-08 | 확정 | AI 영상 제작 역할 분담 v1 (CEO / Director / PM) |
+| DL-013 | 2026-07-08 | 확정 | AI 영상 제작 역할 분담 v1 (영상 제작 한정, DL-009 유지) |
 
 ---
 
@@ -67,6 +67,8 @@
 
 상세 역할 정의: [00_START_HERE.md](../../00_START_HERE.md) · 관리자 원칙: [pm_playbook.md](pm_playbook.md)
 
+> 이 4주체 체계는 **유지**된다. 영상 제작 프로젝트에서의 역할 매핑(Director/Engineer 명명)은 [DL-013](#dl-013--ai-영상-제작-역할-분담-v1-영상-제작-한정-dl-009-유지) · [role_division_v1.md](role_division_v1.md)를 따른다.
+
 ## DL-010 — Public GitHub 운영 및 코비 최종 검수 원칙
 - ai-video-production 저장소는 **Public**으로 운영한다.
 - 클로가 실제 파일 수정 및 commit/push를 담당한다.
@@ -96,18 +98,18 @@
 - **용어 참조:** [glossary.md](glossary.md)
 - **Decision Log 역할 재정의:** Decision = History, Register = Current State (상단 참조)
 
-## DL-013 — AI 영상 제작 역할 분담 v1 (CEO / Director / PM)
-CEO(코지) 지시로 영상 제작 역할을 3주체로 확정한다. 결정권 충돌·크레딧 낭비 방지 목적.
+## DL-013 — AI 영상 제작 역할 분담 v1 (CEO / Director / PM / Engineer)
+CEO(코지) 지시로 **영상 제작 한정** 역할 분담을 확정한다. 결정권 충돌·크레딧 낭비 방지 목적.
 
 - **CEO(코지)** — 방향/목적 결정, 최종 승인(GO/NO-GO). 프롬프트·연출·파라미터 미관여.
-- **Director(클로드)** — 영상 제작 총괄. 시나리오·Shot List·Storyboard·프롬프트·Keyframe·Higgsfield/Veo 생성 등 모든 창작 책임.
+- **Director(클챗 / Claude Director)** — 영상 제작 총괄. 시나리오·Shot List·Storyboard·프롬프트·Keyframe·Higgsfield/Veo 생성 등 모든 창작 책임.
 - **PM(코비/ChatGPT)** — 창작하지 않음. 정리·문서화·작업지시서·일정·비용·검수 체크리스트만.
-- 원칙: **창작은 Director, 판단은 CEO, 정리는 PM.**
+- **Engineer(클로/Claude Code)** — 창작하지 않음. 구현·commit·push·GitHub/문서 반영·기술 실행만.
+- 원칙: **창작은 Director, 판단은 CEO, 정리는 PM, 반영은 Engineer.**
 
 표준 문서: [role_division_v1.md](role_division_v1.md)
 
-> ⚠️ **미해결 정합성 (코비/CEO 확인 필요):** 본 결정은 기존 역할 정의와 충돌·중복이 있다.
-> - [DL-009](#dl-009--코비-기준-관리자-및-4주체-운영-체계-확정): 4주체(CEO/코비/클챗/클로), 코비=기준 관리자(SSOT 관리 포함). 본 DL은 3주체(CEO/Director/PM)로 재편하고 PM에서 창작·기술 판단을 제외.
-> - "Director(클로드)"가 기존 4주체의 클챗(분석/프롬프트) + 클로(제작)를 통합하는지, 별개인지 미확정.
-> - [00_START_HERE.md](../../00_START_HERE.md) §3, [pm_playbook.md](pm_playbook.md) 역할 서술과 병존 시 상충.
-> → 이 문서들의 갱신/대체 여부는 별도 지시로 확정한다. (판단 = CEO)
+> **정합성 해결 (B안 확정, CEO 승인):** DL-013은 [DL-009](#dl-009--코비-기준-관리자-및-4주체-운영-체계-확정)를 **대체하지 않는다.**
+> - 전체 운영은 DL-009의 **4주체(CEO / 코비 / 클챗 / 클로)**를 그대로 유지한다.
+> - DL-013은 **영상 제작 프로젝트 한정**으로, 4주체를 CEO / PM(코비) / Director(클챗) / Engineer(클로)로 **매핑**한다. (재설계·통합 아님)
+> - History 보존: 초기 제안은 3주체였으나, CEO가 4주체 유지(B안)로 확정.

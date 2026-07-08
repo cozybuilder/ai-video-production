@@ -65,6 +65,9 @@
 > ⚠️ AI 영상제작에서 **클챗과 클로를 절대 혼동하지 않습니다.**
 > 초안·실행은 클챗이 하고, 실제 저장(commit/push)은 클로만 합니다.
 
+> **영상 제작 프로젝트 한정** 역할 매핑: CEO / PM(코비) / Director(클챗) / Engineer(클로). 위 4주체 체계는 그대로 유지된다.
+> 상세: [role_division_v1.md](docs/operations/role_division_v1.md) · [DL-013](docs/operations/decision_log.md)
+
 ## 4. HARIN 제작 철학
 
 > **하린은 변하지 않습니다. 세상이 변합니다.**
