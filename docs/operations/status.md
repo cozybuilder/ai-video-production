@@ -3,7 +3,7 @@
 > 세션 스냅샷입니다. 상시 TODO 관리 도구가 아닙니다.
 > 갱신 시점: **채팅방 전환 직전** 또는 **하루 작업 종료 직전**만. (근거: [DL-011](decision_log.md), [pm_playbook.md](pm_playbook.md) §11)
 
-**최종 갱신:** 2026-07-08
+**최종 갱신:** 2026-07-21
 
 ---
 
@@ -25,6 +25,7 @@
 - ✅ Production Brief를 AI Video 공식 입력 SSOT로 지정 (2026-07-08)
 - ✅ cozybuilder-ops에 Production Brief 진입 규칙 추가 (PLAYBOOK P10, 내용 복제 없이 경로만)
 - ✅ AI Video 작업 시 Production Brief 확인을 필수 선행 절차로 지정
+- ✅ short-form-app-ad Skill 구축 (2026-07-21) — 앱 설치 전환 숏폼 광고 오케스트레이션: 14게이트(사실검증 G1~G3 · 기획 G4~G7 · 제작설계 G8~G10 · 검증승인 G11~G14), 템플릿 4종·사용예시 1종. `skills/short-form-app-ad/`
 
 ## Current Roles
 - **CEO** = 사장님

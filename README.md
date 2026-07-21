@@ -28,6 +28,7 @@ AI 영상제작 운영의 **단일 진실 원천(SSOT, Single Source of Truth)**
 | [docs/patterns/hook_library.md](docs/patterns/hook_library.md) | 훅(Hook) 라이브러리 |
 | [docs/patterns/camera_language.md](docs/patterns/camera_language.md) | 카메라 언어 규칙 |
 | [docs/characters/harin/identity_rules.md](docs/characters/harin/identity_rules.md) | HARIN 정체성 규칙 |
+| [skills/short-form-app-ad/SKILL.md](skills/short-form-app-ad/SKILL.md) | 앱 설치 전환 숏폼 광고 Skill (검증·기획·제작·검수 14게이트) |
 | [docs/retrospectives/2026-07-01_f1_f2_f4_failures.md](docs/retrospectives/2026-07-01_f1_f2_f4_failures.md) | F1/F2/F4 실패 회고 |
 
 ## 4. 역할 구분
